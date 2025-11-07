@@ -18,3 +18,5 @@ Many flicker-free games should work, although some may cause a click, see the pa
 The original ROM is 4K, the new display code as been added in the space after that to make an 8K ROM.
 
 It should be padded out to 16K if building a Minstrel 4th ROM set.
+
+16K of RAM is detected. A further 32K is available for certain applications, although it is not detected or used by BASIC.
