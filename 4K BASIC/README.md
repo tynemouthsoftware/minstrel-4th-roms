@@ -1,4 +1,4 @@
-ZX80 4K BASIC modfied to run on Minstrel 4th hardware.
+ZX80 4K Integer BASIC modfied to run on Minstrel 4th hardware.
 
 For more info, see the following posts.
 
@@ -14,3 +14,7 @@ LOAD and SAVE routines have been replaced, and include progress indicator.
 Keyboard is remapped for the changes to the middle 8 keys, some games may use their own scanning routines.
 
 Many flicker-free games should work, although some may cause a click, see the part 3 post above for a small changes necessary to stop that.
+
+The original ROM is 4K, the new display code as been added in the space after that to make an 8K ROM.
+
+It should be padded out to 16K if building a Minstrel 4th ROM set.
