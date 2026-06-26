@@ -17,7 +17,14 @@ Current images for the Minstrel 4th include:
   * [https://github.com/tynemouthsoftware/minstrel-4th-roms/tree/main/4K BASIC](https://github.com/tynemouthsoftware/minstrel-4th-roms/tree/main/4K%20BASIC)
 * ZX81 8K Floating Point BASIC
   * [https://github.com/tynemouthsoftware/minstrel-4th-roms/tree/main/8K BASIC](https://github.com/tynemouthsoftware/minstrel-4th-roms/tree/main/8K%20BASIC)
+* Lambda 8300 8K Floating Point BASIC
+  * [https://github.com/tynemouthsoftware/minstrel-4th-roms/tree/main/Lambda 8300](https://github.com/tynemouthsoftware/minstrel-4th-roms/tree/main/Lambda%208300)
 * Micro Professor MPF-1
   * https://github.com/markgbeckett/jupiter_ace/tree/master/mpf-i
 * ZX Forth (work in progress)
   * https://github.com/markgbeckett/zx81/tree/main/zx-forth
+  
+The V1.x Images are suitable for Minstrel 4th up to V4.30, with 64K ROM containing 4x16K images.
+
+The V2 Images are for the Minstrel 4th from V4.52 onwards, with 512K ROM containing 16x16K images.
+
