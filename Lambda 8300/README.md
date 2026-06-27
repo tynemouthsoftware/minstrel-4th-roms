@@ -1,6 +1,7 @@
-Lambda 8300 8K Floating Point BASIC modfied to run on Minstrel 4th hardware.
+# Lambda 8300 8K Floating Point BASIC modfied to run on Minstrel 4th hardware
 
 For more info, see the following posts.
+
 * [http://blog.tynemouthsoftware.co.uk/2026/06/lambda-8300-reverse-engineering.html](http://blog.tynemouthsoftware.co.uk/2026/06/lambda-8300-reverse-engineering.html)
 * [http://blog.tynemouthsoftware.co.uk/2025/06/a-zx81-game-on-a-zx81-emulator-on-a-jupiter-ace-emulator.html](http://blog.tynemouthsoftware.co.uk/2019/12/a-minstrel-3-based-clone-of-the-lambda-8300-ZX81-clone.html)
 * [http://blog.tynemouthsoftware.co.uk/2025/06/zx81-basic-on-minstrel-4th-original.html](http://blog.tynemouthsoftware.co.uk/2019/12/a-minstrel-3-based-clone-of-the-lambda-8300-ZX81-clone.html)
@@ -15,3 +16,8 @@ The SOUND and MUSIC routines, and the keyboard beep have been updated to use the
 The original ROM is 8K, the new display code as been added in the additional 5K ROM space available on the Minstrel 4h to make a 16K ROM image.
 
 48K of RAM is detected, as the display file is fixed location and will always be below $8000, the full RAM can be used.
+
+Build using:
+`TASM.EXE -t80 -fff -b Lamdba4th.asm Lamdba4th.bin`
+
+The file Lamdba4th.asm is a patch file, code in there overwrites code in Lamdba8300.asm.

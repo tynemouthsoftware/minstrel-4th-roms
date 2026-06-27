@@ -1,12 +1,15 @@
 ; Disassembly of the Lambda 8300 ROM
 ; Dave Curran 2026-06-12
 
+; Latest version at:
+; https://github.com/tynemouthsoftware/Lambda8300
+
 ; Where functions are identical to ZX81, only the function names are commented
 ; Refer to the ZX81 assembly listing by Geoff Wearmouth for further comments
 ; https://web.archive.org/web/20111004151617/http://www.wearmouth.demon.co.uk/zx81.htm
 
 ; assemble with TASM
-; TASM.EXE -t80 -fff -b Lambda8300.asm Lambda8300.bin
+; TASM.EXE -t80 -b Lambda8300.asm Lambda8300.bin
 
 ; Z80 @ 3.25MHz
 ; 8K of ROM
