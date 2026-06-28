@@ -2,6 +2,7 @@
 
 For more info, see the following posts.
 
+* [http://blog.tynemouthsoftware.co.uk/2026/06/lambda-8300-basic-for-minstrel-4th.html](http://blog.tynemouthsoftware.co.uk/2026/06/lambda-8300-basic-for-minstrel-4th.html)
 * [http://blog.tynemouthsoftware.co.uk/2026/06/lambda-8300-reverse-engineering.html](http://blog.tynemouthsoftware.co.uk/2026/06/lambda-8300-reverse-engineering.html)
 * [http://blog.tynemouthsoftware.co.uk/2025/06/a-zx81-game-on-a-zx81-emulator-on-a-jupiter-ace-emulator.html](http://blog.tynemouthsoftware.co.uk/2019/12/a-minstrel-3-based-clone-of-the-lambda-8300-ZX81-clone.html)
 * [http://blog.tynemouthsoftware.co.uk/2025/06/zx81-basic-on-minstrel-4th-original.html](http://blog.tynemouthsoftware.co.uk/2019/12/a-minstrel-3-based-clone-of-the-lambda-8300-ZX81-clone.html)
