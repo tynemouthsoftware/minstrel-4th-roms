@@ -1,4 +1,4 @@
-# Lambda 8300 8K Floating Point BASIC modfied to run on Minstrel 4th hardware
+# Lambda 8300 8K Floating Point BASIC for Minstrel 4th
 
 For more info, see the following posts.
 
@@ -21,3 +21,5 @@ Build using:
 `TASM.EXE -t80 -fff -b Lamdba4th.asm Lamdba4th.bin`
 
 The file Lamdba4th.asm is a patch file, code in there overwrites code in Lamdba8300.asm.
+
+Also included a single file version (well, 1 file plus a font file) with all the code merged, if you prefer that.
